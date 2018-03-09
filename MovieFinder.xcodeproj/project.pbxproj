@@ -15,6 +15,8 @@
 		66C88B0E2050E5FF00FBEE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C88B0C2050E5FF00FBEE48 /* LaunchScreen.storyboard */; };
 		66C88B192050E5FF00FBEE48 /* MovieFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C88B182050E5FF00FBEE48 /* MovieFinderTests.swift */; };
 		66C88B252050E65200FBEE48 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C88B242050E65200FBEE48 /* APIHandler.swift */; };
+		66C88B2820511D6000FBEE48 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C88B2720511D6000FBEE48 /* SearchViewController.swift */; };
+		66C88B2C2052261500FBEE48 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C88B2B2052261500FBEE48 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		66C88B182050E5FF00FBEE48 /* MovieFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderTests.swift; sourceTree = "<group>"; };
 		66C88B1A2050E5FF00FBEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66C88B242050E65200FBEE48 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		66C88B2720511D6000FBEE48 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		66C88B2B2052261500FBEE48 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,9 @@
 			children = (
 				66C88B002050E5FF00FBEE48 /* AppDelegate.swift */,
 				66C88B022050E5FF00FBEE48 /* ViewController.swift */,
+				66C88B2D20522C5800FBEE48 /* Models */,
+				66C88B2620511D4100FBEE48 /* ViewControllers */,
+				66C88B2A205225F200FBEE48 /* Cells */,
 				66C88B232050E63000FBEE48 /* APIHandler */,
 				66C88B042050E5FF00FBEE48 /* Main.storyboard */,
 				66C88B0A2050E5FF00FBEE48 /* Assets.xcassets */,
@@ -108,6 +115,29 @@
 				66C88B242050E65200FBEE48 /* APIHandler.swift */,
 			);
 			path = APIHandler;
+			sourceTree = "<group>";
+		};
+		66C88B2620511D4100FBEE48 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				66C88B2720511D6000FBEE48 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		66C88B2A205225F200FBEE48 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				66C88B2B2052261500FBEE48 /* MovieCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		66C88B2D20522C5800FBEE48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C88B2820511D6000FBEE48 /* SearchViewController.swift in Sources */,
 				66C88B032050E5FF00FBEE48 /* ViewController.swift in Sources */,
+				66C88B2C2052261500FBEE48 /* MovieCell.swift in Sources */,
 				66C88B012050E5FF00FBEE48 /* AppDelegate.swift in Sources */,
 				66C88B092050E5FF00FBEE48 /* MovieFinder.xcdatamodeld in Sources */,
 				66C88B252050E65200FBEE48 /* APIHandler.swift in Sources */,
