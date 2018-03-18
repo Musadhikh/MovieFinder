@@ -31,6 +31,8 @@ class SearchViewController: UIViewController {
         movieTable.tableHeaderView = UIView()
         movieTable.estimatedSectionHeaderHeight = 50
         
+        
+        
     }
     
     
